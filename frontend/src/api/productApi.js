@@ -27,3 +27,11 @@ export const updateVariant = (variantId, data) =>
 
 export const deleteVariant = (variantId) =>
   api.delete(`/variants/${variantId}/`);
+
+export const uploadProductImage = (file) => {
+  const formData = new FormData();
+  formData.append('image', file);
+  return api.post('/products/upload-image/', formData, {
+    headers: { 'Content-Type': 'multipart/form-data' },
+  });
+};
