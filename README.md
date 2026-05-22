@@ -139,16 +139,6 @@ pip install -r requirements.txt
 cp .env.example .env           # then edit with your DB credentials
 ```
 
-Edit `.env`:
-```env
-SECRET_KEY=your-secret-key-here
-DEBUG=True
-DB_NAME=Cloth_Store
-DB_USER=Th34n
-DB_PASSWORD=Th34n90s
-DB_HOST=127.0.0.1
-DB_PORT=3306
-```
 
 ```bash
 # Start Django server
