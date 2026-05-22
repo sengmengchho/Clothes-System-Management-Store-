@@ -1,0 +1,74 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Packaging
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Byte-compiled / caches
+*.pyc
+
+# Django
+db.sqlite3
+/media/
+backend/media/
+*.log
+local_settings.py
+*.pot
+staticfiles/
+# If you collect static to a folder, add that folder (e.g., /static/ or /build/)
+
+# Environment / secrets
+.env
+.env.*
+secrets.env
+
+# ===== Frontend (Node / Vite / React) =====
+node_modules/
+dist/
+build/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Keep lock files committed:
+# package-lock.json, yarn.lock, pnpm-lock.yaml
+
+# ===== IDEs / Editors =====
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Tests / Coverage =====
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Logs =====
+*.log
+
+# ===== Misc =====
+*.env
+*.sqlite3
